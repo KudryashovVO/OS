@@ -3,7 +3,12 @@
   hosts: all
   gather_facts: no
   roles:
+<<<<<<< HEAD
 #    - { role: docker , tags [docker] }
 #    - { role: hardenig, tags [hardening] }
 #   - docker
    - hardening
+=======
+  - docker
+  - hardening
+>>>>>>> aa2f134d60267f6d69035b5fe68a69ebeebe4e6c
